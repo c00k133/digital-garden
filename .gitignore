@@ -1,6 +1,7 @@
 *.swp
 content/posts/*
 !content/posts/.keep
+public/*
 
 # The following .gitignore is templated from:
 # - https://github.com/github/gitignore/blob/master/Python.gitignore
