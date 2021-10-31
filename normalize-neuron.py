@@ -13,7 +13,7 @@ neuron_metadata = json.load(sys.stdin)
 
 def convert_neuron_date(date_str):
     date_obj = datetime.strptime(date_str, '%Y-%m-%dT%H:%M')
-    hugo_compatible_date = datetime.strftime(date_obj, '%Y-%m-%dT%H:%M:%S-00')
+    hugo_compatible_date = datetime.strftime(date_obj, '%Y-%m-%dT%H:%M:%S')
     return hugo_compatible_date
 
 def sanitize_tags(tags):
